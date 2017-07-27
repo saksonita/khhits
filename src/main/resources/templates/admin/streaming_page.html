@@ -325,6 +325,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <br>
                             <div class="form-group">
                                 <label>From</label>
+                                <!--TODO: I want to create combobox here-->
                                 <select class="form-control" th:field="*{pageTitle}">
                                     <option th:each="page: ${pages} "
                                             th:value="${page.pageId}"
