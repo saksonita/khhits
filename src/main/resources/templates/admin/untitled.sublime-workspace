@@ -1,0 +1,392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"col",
+				"col-xs-4"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"t",
+				"txt1"
+			],
+			[
+				"dis",
+				"dishDetailController"
+			],
+			[
+				"a",
+				"author"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"fi",
+				"filterText"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"d",
+				"dishDetailController"
+			],
+			[
+				"di",
+				"dishDetailCtrl"
+			],
+			[
+				"des",
+				"dessert"
+			],
+			[
+				"fil",
+				"filtText"
+			],
+			[
+				"is",
+				"isSelected"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"menu",
+				"menuCtrl"
+			],
+			[
+				"con",
+				"confusionApp"
+			],
+			[
+				"fa-e",
+				"fa-envelope-o"
+			],
+			[
+				"co",
+				"col-xs-12"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"l",
+				"largest"
+			],
+			[
+				"f",
+				"fnum"
+			],
+			[
+				"n",
+				"num"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"pri",
+				"printSomething"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"ra",
+				"rate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "streamed_posts.html",
+			"settings":
+			{
+				"buffer_size": 23531,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/saksonita1/Downloads/AdminLTE/plugins/daterangepicker/daterangepicker.css",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/forms/general.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/starter.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/streaming_page.html",
+		"/Users/saksonita1/Downloads/AdminLTE/plugins/daterangepicker/daterangepicker.js",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/forms/advanced.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/forms/editors.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/layout/collapsed-sidebar.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/dist/css/skins/skin-purple.min.css",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/layout/fixed.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/layout/boxed.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/pages/layout/top-nav.htm",
+		"/Users/saksonita1/Downloads/AdminLTE/streaming_page",
+		"/Users/saksonita1/Downloads/jspkg-archive/test.html",
+		"/Users/saksonita1/Downloads/jspkg-archive/README.md"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"side",
+			"<div class=\"daterangepicker dropdown-menu opensright show-calendar\" style=\"display: block; top: 364px; right: 906.484px; left: auto;\">",
+			"div",
+			"right: 906.484px",
+			"position",
+			"show-c",
+			"left: auto",
+			"style",
+			"opens",
+			"skin-blue",
+			"skin",
+			"<!-- Content Wrapper. Contains page content -->",
+			"<div class=\"content-wrapper\" style=\"min-height: 916px;\"><div style=\"padding: 20px 30px; background: rgb(243, 156, 18); z-index: 999999; font-size: 16px; font-weight: 600;\"><a class=\"pull-right\" href=\"#\" data-toggle=\"tooltip\" data-placement=\"left\" title=\"Never show me this again!\" style=\"color: rgb(255, 255, 255); font-size: 20px;\">×</a><a href=\"https://themequarry.com\" style=\"color: rgba(255, 255, 255, 0.9); display: inline-block; margin-right: 10px; text-decoration: none;\">Ready to sell your theme? Submit your theme to our new marketplace now and let over 200k visitors see it!</a><a class=\"btn btn-default btn-sm\" href=\"https://themequarry.com\" style=\"margin-top: -5px; border: 0px; box-shadow: none; color",
+			"<div class=\"content-wrapper\" style=\"min-height: 916px;\"><div style=\"padding: 20px 30px; background: rgb(243, 156, 18); z-index: 999999; font-size: 16px; font-weight: 600;\"><a class=\"pull-right\" href=\"#\" data-toggle=\"tooltip\" data-placement=\"left\" title=\"Never show me this again!\" style=\"color: rgb(255, 255, 255); font-size: 20px;\">×</a><a href=\"https://themequarry.com\" style=\"color: rgba(255, 255, 255, 0.9); display: inline-block; margin-right: 10px; text-decoration: none;\">Ready to sell your theme? Submit your theme to our new marketplace now and let over 200k visitors see it!</a><a class=\"btn btn-default btn-sm\" href=\"https://themequarry.com\" style=\"margin-top: -5px; border: 0px; box-shadow: none; color: rgb(243, 156, 18); font-weight: 600; background: rgb(255, 255, 255);\">Let's Do It!</a></div>",
+			"content-wrapper",
+			"feedbackForm",
+			"menu",
+			"toggle",
+			"menu",
+			"copyfonts",
+			"watch",
+			"about",
+			"row-content",
+			"cor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/saksonita1/Downloads/KHhits_admin"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "streamed_posts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7985.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
