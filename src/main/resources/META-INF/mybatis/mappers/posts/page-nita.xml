@@ -3,11 +3,10 @@
 <mapper namespace="khhits.repositories.PageRepository">
 
     <insert id="save">
-        INSERT INTO page(page_id, page_title, id)
+        INSERT INTO pages(page_id, page_title)
         VALUES (
-        #{page_id},
-        #{page_title},
-        #{id}
+        #{pageId},
+        #{pageTitle}
         )
     </insert>
 
