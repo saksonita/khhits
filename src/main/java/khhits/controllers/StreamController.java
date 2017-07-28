@@ -95,6 +95,8 @@ public class StreamController {
         if (bindingResult.hasErrors()) {
             return "/admin/streaming_page";
         }
+        pageRepository.save(new Page(page.getPageId(), page.getPageTitle()));
+        model.addAttribute("pages", pageRepository.findAll());
 
         return "redirect:result";
     }

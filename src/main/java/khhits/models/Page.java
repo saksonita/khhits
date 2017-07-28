@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 
 
+
 /**
  * Created by HP1 on 5/3/2017.
  */
@@ -16,7 +17,13 @@ public class Page {
     private String pageId;
     private String pageTitle;
 
+    public Page() {
+    }
 
+    public Page( String pageId, String pageTitle ) {
+        this.pageId = pageId;
+        this.pageTitle = pageTitle;
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 
