@@ -13,6 +13,7 @@ import javax.persistence.Id;
  */
 @Entity
 public class Page {
+    @Id
     private int id;
     private String pageId;
     private String pageTitle;

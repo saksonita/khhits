@@ -318,15 +318,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
                     <div class="box-body">
                         <form action="/getFacebookPost" method="post" modelAttribute="Post">
-
-                            <input class="form-control input-lg" type="text" placeholder="Page ID" name="page_id">
-                            <br>
-                            <input class="form-control input-lg" type="text" placeholder="Page Title" name="page_title">
                             <br>
                             <div class="form-group">
                                 <label>From</label>
                                 <!--TODO: I want to create combobox here-->
-                                <select class="form-control">
+                                <select class="form-control" th:field="*{pageTitle}">
                                     <option th:each="page: ${pages} "
                                             th:value="${page.pageId}"
                                             th:text="${page.pageTitle}"/>
