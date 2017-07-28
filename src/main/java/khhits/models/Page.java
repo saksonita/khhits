@@ -1,15 +1,24 @@
 package khhits.models;
 
-import jdk.nashorn.internal.ir.annotations.Immutable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+
 
 /**
  * Created by HP1 on 5/3/2017.
  */
-
+@Entity
 public class Page {
     private int id;
     private String pageId;
     private String pageTitle;
+
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
 
     public int getId() {
         return id;

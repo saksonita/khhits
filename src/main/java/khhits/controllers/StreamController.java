@@ -15,8 +15,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.validation.BindingResult;
 
-
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -78,15 +79,30 @@ public class StreamController {
         return "/admin/streaming_page";
 
     }
+//
+//    @RequestMapping(value = "/getFacebookPost", method = RequestMethod.GET)
+//    public String getFacebookPost( Model model ) {
+//        List<Page> page = new ArrayList<>();
+//        model.addAttribute("page", page);
+//        Iterable<Page> pages = CrudRepository.findAll();
+//        model.addAttribute("tests", pages);
+//
+//        return "getFacebookPost";
+//    }
 
-    @RequestMapping(value = "/getFacebookPost", method = RequestMethod.GET)
-    public String getFacebookPost( Model model ) {
-        List<Page> page = new ArrayList<>();
-        model.addAttribute("page", page);
-        Iterable<Page> pages = CrudRepository.findAll();
-        model.addAttribute("tests", pages);
+    @RequestMapping(value = "/getFacebookPost", method = RequestMethod.POST)
+    public String getFacebookPage( @Valid Page page, BindingResult bindingResult, Model model ) {
+        if (bindingResult.hasErrors()) {
+            return "/admin/streaming_page";
+        }
 
-        return "getFacebookPost";
+        return "redirect:result";
+    }
+
+    @RequestMapping(value = "/result", method = RequestMethod.GET)
+    public String showAllPosts( Model model ) {
+        model.addAttribute("pages", pageRepository.findAll());
+        return "result";
     }
 
     //TODO: We can use the Scheduler in the Spring it can allow us to run our code 1 week a time. that's good,,
