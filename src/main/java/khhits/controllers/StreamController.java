@@ -63,7 +63,7 @@ public class StreamController {
     @RequestMapping(value = "/addPage", method = RequestMethod.GET)
     public String getPage( Model model ) {
         model.addAttribute("page", new Page()); //assume SomeBean has a property called datePlanted
-        return "/admin/streaming_page";
+        return "redirect:/";
         //TODO: getvalue from input
     }
 
@@ -75,8 +75,8 @@ public class StreamController {
         pageModel.setPageTitle(page_title);
 //        pageModel.setId(pageModel.getId());
         pageRepository.save(pageModel);
-        System.out.println("insert sucess");
-        return "/admin/streaming_page";
+        System.out.println("insert success");
+        return "redirect:/";
 
     }
 //
@@ -93,7 +93,7 @@ public class StreamController {
     @RequestMapping(value = "/getFacebookPost", method = RequestMethod.POST)
     public String getFacebookPage( @Valid Page page, BindingResult bindingResult, Model model ) {
         if (bindingResult.hasErrors()) {
-            return "/admin/streaming_page";
+            return "redirect:/";
         }
         pageRepository.save(new Page(page.getPageId(), page.getPageTitle()));
         model.addAttribute("pages", pageRepository.findAll());
